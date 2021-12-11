@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="javax.mail">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/javax.mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jgoodies-forms-1.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jgoodies-common-1.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/activation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/additionnal.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/jgoodies-forms-1.8.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jgoodies-common-1.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
