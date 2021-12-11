@@ -38,6 +38,7 @@ public class Student extends Person {
         this.registrationDate = registrationDate;
         this.address = address;
         this.phoneNumber = phoneNumber;
+        this.age = FileUtil.DobToAge(this.dob);
         this.parentName = parentName;
         this.email = email;
 
@@ -68,6 +69,7 @@ public class Student extends Person {
         this.phoneNumber = tokens[6];
         this.parentName = tokens[7];
         this.email = tokens[8];
+        this.age = FileUtil.DobToAge(this.dob);
         Calendar c = Calendar.getInstance();
         c.setTime(this.registrationDate);
         c.add(c.YEAR, 1);
@@ -150,6 +152,14 @@ public class Student extends Person {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public List<Date> getImmunisationDates() {
+        return immunisationDates;
+    }
+
+    public void setImmunisationDates(List<Date> immunisationDates) {
+        this.immunisationDates = immunisationDates;
     }
 
     public Date getAnnualRegistrationDate() {
